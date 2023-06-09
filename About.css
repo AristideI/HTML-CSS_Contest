@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+html {
+    background-color: black;
+}
+
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 8%;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+}
+nav p a {
+    text-decoration: none;
+    color: #FFF200;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.4rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.start {
+    font-weight: bolder;
+    font-size: 1rem;
+    border: 1px solid aliceblue;
+    color: #FFF200;
+    padding: 3px 1.3rem;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* ########################################################### */
+/* ########################################################### */
+/* ########################################################### */
+
+
+header {
+    display: flex;
+    margin: 5rem 8% 1px 8%;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.one {
+
+    font-size: 4rem;
+    font-weight: bolder;
+    width: 30%;
+    
+}
+
+header div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 4rem;
+
+}
+
+.serv {
+    text-align: right;
+    text-decoration: none;
+    /* background-color: #FFF200; */
+    border: #FFF200 1px solid;
+    border-radius: 15px;
+    padding: 10px 5rem;
+    font-size: 1.3rem;
+}
+
+.out {
+    color: #FFF200;
+}
+
+.two {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+.rectangle {
+    position: absolute;
+    z-index: -3453;
+    top: 0;
+    right: -12%;
+    width: 50rem;
+    height: 22rem;
+    background-color: rgba(197, 197, 197, 0.596);
+}
+
+.shade {
+    width: 17rem;
+    height: auto;
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    z-index: -345;
+}
+
+/* ####################################################### */
+/* ####################################################### */
+/* ####################################################### */
+
+main {
+    margin: 7rem 8% 1px 8%;
+}
+
+.meet-us {
+    text-align: center;
+
+}
+
+.meet-us span {
+    color: #FFF200;
+}

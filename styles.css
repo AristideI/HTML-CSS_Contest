@@ -8,7 +8,20 @@
 html {
     background-color: #000;
     color: aliceblue;
+    position: relative;
 }
+
+.circle {
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+    border: 1px solid rgba(228, 255, 247, 0.466);
+    position: absolute;
+    top: -25rem;
+    left: -20rem;
+    z-index: -5;
+}
+
 
 a:hover {
     text-decoration: underline;
@@ -42,7 +55,7 @@ ul {
 
 .start {
     font-weight: bolder;
-    font-size: 1.1rem;
+    font-size: 1rem;
     border: 1px solid aliceblue;
     color: #FFF200;
     padding: 3px 1.3rem;
@@ -128,4 +141,207 @@ header p span {
     padding: 9px 2.7rem;
     border: 1px solid #FFF200;
     border-radius: 15px;
+}
+
+/* ######################################################################## */
+/* ######################################################################## */
+/* ######################################################################## */
+
+main {
+    margin: 1px 8%;
+}
+
+.first-section {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.card {
+    width: 25%;
+    padding: 1.5rem 1rem 1rem 1rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
+    /* background-color: rgb(41, 41, 41); */
+    box-shadow: 10px 10px 40px #fff20020;
+    margin-bottom:4rem;
+}
+
+.three {
+    width: 90%;
+}
+
+.personal {
+    font-size: 1.3rem;
+    border-bottom: 1px solid #FFF200;
+    padding-bottom: 1rem;
+    font-weight: lighter;
+}
+
+.plan {
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.learn {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #000;
+    border-radius: 15px;
+    padding: 5px 1.4rem 8px 1.4rem;
+}
+
+/* ############################################### */
+/* ############################################### */
+/* ############################################### */
+
+
+.second-section {
+    margin: 1px 8%;
+    position: relative;
+}
+
+.trust {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.trustee {
+    color: #FFF200;
+
+}
+
+.company {
+    width: 100%;
+    height: auto;
+    /* margin-top: 2rem; */
+}
+
+.meet-us {
+    margin-top: 13rem;
+    /* padding-top: 5rem; */
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5rem;
+}
+
+.proo {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.pros {
+    color: #FFF200;
+}
+
+.pros-text {
+    font-size: 1.1rem;
+    width: 60%;
+    line-height: 25px;
+}
+
+.our-team {
+    text-decoration: none;
+    color: aliceblue;
+    /* background-color: #FFF200; */
+    padding: 13px 3rem;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    border: 1px solid #FFF200;
+}
+
+.meet {
+    width: 40rem;
+    height: auto;
+    position: absolute;
+    top: 2rem;
+    left: -15rem;
+    z-index: -453;
+}
+
+/* ##################################################################### */
+/* ##################################################################### */
+/* ##################################################################### */
+
+.third-section {
+    margin: 15rem 8% 3rem 8%;
+}
+
+.story {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.story span {
+    color: #FFF200;
+}
+
+.test {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.aris {
+    color: #FFF200;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+.gahima {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.test-text {
+    width: 60%;
+}
+
+
+.test1 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+
+.name1 {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.test-text1 {
+    width: 60%;
 }
